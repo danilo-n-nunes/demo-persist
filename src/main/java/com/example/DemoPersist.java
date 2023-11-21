@@ -37,9 +37,9 @@ public class DemoPersist {
             clientes.buscarPorNome("Dan").forEach(System.out::println);
 
 
-            clientes.obterTodos().forEach(c -> {
+            /*clientes.obterTodos().forEach(c -> {
                 clientes.deletar(c);
-            });
+            });*/
 
             System.out.println("Lendo Clientes");
             todosClientes = clientes.obterTodos();
